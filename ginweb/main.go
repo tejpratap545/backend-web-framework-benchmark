@@ -13,5 +13,5 @@ func main() {
 	})
 
 	// router runs on :8080 by default
-	router.Run(":8001")
+	_ = router.Run(":8001")
 }
